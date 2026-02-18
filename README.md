@@ -1,5 +1,7 @@
 # 📦 Local Git Statistics
 
+![Local Git Statistics Banner](assets/localgitstatistics.png)
+
 ![Go Version](https://img.shields.io/badge/go-%3E%3D1.21-30dff3?style=flat-square&logo=go)
 
 > *Visualize your local git contributions in a beautiful terminal graph.*
