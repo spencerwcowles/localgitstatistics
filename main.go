@@ -4,10 +4,6 @@ import (
 	"flag"
 )
 
-func stats(email string) {
-	print("stats", email)
-}
-
 func main() {
 	var folder string
 	var email string
