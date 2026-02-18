@@ -4,10 +4,6 @@ import (
 	"flag"
 )
 
-func scan(path string) {
-	print("scan", path)
-}
-
 func stats(email string) {
 	print("stats", email)
 }
