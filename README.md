@@ -82,6 +82,14 @@ Generate the contribution graph for a specific email address.
     go build
     ```
 
+## 🧪 Testing
+
+This project includes unit tests to ensure reliability. You can run them using the following command:
+
+```bash
+go test ./...
+```
+
 ## 💭 Feedback and Contributing
 
 If you find a bug or have a feature request, please [open an issue](https://github.com/spencerwcowles/localgitstatistics/issues).
