@@ -27,25 +27,25 @@ By analyzing the `.git` folders on your machine, it constructs a heatmap of your
 
 ## 🚀 Usage
 
-### 1. Build the project
+### 1. Install the project
 
 ```bash
-go build
+go install
 ```
 
-This will create an executable named `localgitstatistics`.
+This will install the executable to your GOPATH bin directory. make sure your GOPATH bin is in your PATH.
 
 ### 2. Scan for repositories
 
 Recursively scan a folder to add git repositories to the stats database.
 
 ```bash
-./localgitstatistics -add /path/to/your/codebase
+localgitstatistics -add /path/to/your/codebase
 ```
 
 *Example:*
 ```bash
-./localgitstatistics -add /Users/spencercowles/dev
+localgitstatistics -add /Users/spencercowles/dev
 ```
 
 ### 3. Generate Statistics
@@ -53,12 +53,12 @@ Recursively scan a folder to add git repositories to the stats database.
 Generate the contribution graph for a specific email address.
 
 ```bash
-./localgitstatistics -email your@email.com
+localgitstatistics -email your@email.com
 ```
 
 *Example:*
 ```bash
-./localgitstatistics -email spencer@example.com
+localgitstatistics -email spencer@example.com
 ```
 
 ## ⬇️ Installation
@@ -77,9 +77,9 @@ Generate the contribution graph for a specific email address.
     ```bash
     cd localgitstatistics
     ```
-3.  Build the application:
+3.  Install the application:
     ```bash
-    go build
+    go install
     ```
 
 ## 🧪 Testing
